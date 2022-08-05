@@ -3,23 +3,23 @@
 
 # The content
 
-* [1. Introduction](#1-introduction)
+1. [Introduction](#1-introduction)
 
-* [2. Description of the program](#2-description-of-the-program)
+2. [Description of the program](#2-description-of-the-program)
 
-    * [2.1 Main menu](#21-main-menu)
+    2.1 [Main menu](#21-main-menu)
 
-    * [2.2 Registration](#22-registration)
+    2.2 [Registration](#22-registration)
 
-    * [2.3 Importing](#23-importing)
+    2.3 [Importing](#23-importing)
 
-    * [2.4 Reading](#24-reading)
+    2.4 [Reading](#24-reading)
 
-    * [2.5 Percentages](#25-percentages)
+    2.5 [Percentages](#25-percentages)
 
-* [3. Conclusion](#3-conclusion)
+3. [Conclusion](#3-conclusion)
 
-* [4. Literature](#4-literature)
+4. [Literature](#4-literature)
 
 # 1. Introduction
 
