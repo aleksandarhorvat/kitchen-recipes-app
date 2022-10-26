@@ -221,7 +221,7 @@ The *Importing* module is located in the file Importing.py and is intended for e
        f.close()
    ```
 
-   > unesi() method
+   > enter() method
 
 ## 2.4 Reading
 
