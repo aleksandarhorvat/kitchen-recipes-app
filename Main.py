@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt #is used for graphic display
 from Percentages import percentage #used to convert grams to percentages
 from Registration import check #is used for user registration and login
-from Importing import enter #is used to enter foods and their quantities
+from Writing import enter #is used to enter foods and their quantities
 from Reading import read #it is used to enter the ingredients that we have with us
                          #prints all possible combinations with the given ingredients
                          #enables the selection of all recipes that contain these ingredients

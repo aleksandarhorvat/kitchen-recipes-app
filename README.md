@@ -11,7 +11,7 @@
 
     2.2 [Registration](#22-registration)
 
-    2.3 [Importing](#23-importing)
+    2.3 [Writing](#23-writing)
 
     2.4 [Reading](#24-reading)
 
@@ -34,7 +34,7 @@ The application has one main file from which the program itself is launched and 
     ```
     > Lines within the text file login.txt
 
-2. <ins>Importing:</ins> this module will allow users to enter ingredients and ingredient quantities into two separate text files, one of which will store the ingredients and the other the ingredient quantity.
+2. <ins>Writing:</ins> this module will allow users to enter ingredients and ingredient quantities into two separate text files, one of which will store the ingredients and the other the ingredient quantity.
     ```
     tomato cheese pepperoni pizza_dough pizza
     bread egg butter toast
@@ -57,7 +57,7 @@ The application is called from the main file Main.py, more precisely from the ma
 import matplotlib.pyplot as plt #is used for graphic display
 from Percentages import percentage #used to convert grams to percentages
 from Registration import check #is used for user registration and login
-from Importing import enter #is used to enter foods and their quantities
+from Writing import enter #is used to enter foods and their quantities
 from Reading import read #it is used to enter the ingredients that we have with us
                          #prints all possible combinations with the given ingredients
                          #enables the selection of all recipes that contain these ingredients
@@ -128,7 +128,7 @@ Then we write down how much we need for each ingredient.
 
 After that, we show a graph showing the percentage of each ingredient in the dish using the matplotlib.pyplot method.
 
-If we did not choose 1 but 2 in the first choice, then the enter() method from the Importing.py module is executed.
+If we did not choose 1 but 2 in the first choice, then the enter() method from the Writing.py module is executed.
 
 And if we chose 3, then it jumps out of the loop and the program ends.
 
@@ -194,9 +194,9 @@ The module *Registration* is located in the file Registration.py, it is intended
 
    > check() method
 
-## 2.3 Importing
+## 2.3 Writing
 
-The *Importing* module is located in the file Importing.py and is intended for entering ingredients and amounts of ingredients in two separate text files. There is one method in this module:
+The *Writing* module is located in the file Writing.py and is intended for entering ingredients and amounts of ingredients in two separate text files. There is one method in this module:
 
 1. enter(): is used for the name of the dish, the ingredients needed for its preparation and their quantity in grams
 
